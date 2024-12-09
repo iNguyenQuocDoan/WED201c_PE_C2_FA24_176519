@@ -1,0 +1,189 @@
+.content-logo{
+    display: flex;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+/* *{
+    overflow-x: hidden;
+} */
+
+.content-logo img{
+    width: 8%;
+}
+
+.content-menu .content-nav ul{
+    display: flex;
+    justify-content: center;
+    background-color: #1483BA;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+
+.content-menu .content-nav ul li{
+    list-style-type: none;
+    margin-right: 30px;
+   
+}
+
+.content-menu .content-nav ul li a{
+    color:#95CEE8;
+    text-decoration: none;
+}
+
+.content_banner{
+    display: flex;
+}
+
+.content_banner img{
+    width: 50%;
+}
+
+/* content-mango */
+.title{
+    text-align: center;
+    color: #47CCE0;
+}
+.content-mango{
+    display: flex;
+    padding: 0 30px 0 15px;
+}
+.content-mango img{
+    flex:1;
+}
+
+.content-mango .content-mango-right{
+    display: flex;
+    flex:1;
+}
+
+.content-mango .content-mango-right img{
+    width: 25%;
+    padding: 0 10px;
+}
+
+.titleO{
+    text-align: center;
+    color:#F4C5AB;
+}
+
+.content-mango .book{
+    display: flex;
+    justify-content: flex-end;
+    margin:0 0 50px 0;
+}
+
+.content-mango .book a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: #27AEDF;
+    border-radius: 10px;
+    color: #8FDCF2;
+}
+.leter1{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2;
+    padding: 0 10px;
+}
+
+/* content-mango */
+
+/* content-muine */
+
+
+.parent{
+    padding: 0 30px 0 15px;
+    display: flex;
+}
+
+.parent1{
+    position: relative;
+    flex:2;
+}
+
+
+.parent1 .img-colum{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cha{
+    display: flex;
+}
+
+.parent1 .cha .img2 img{
+    object-fit: cover;
+    width: 105%;
+    height: auto;
+    margin-right: -26px;
+    margin-left: -8%;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.parent .cha .img-colum img{
+    width: 79.5%;
+    padding: 5px  ;
+}
+
+.parent .parent1 .img3 img{
+    width: 24.6%;
+    padding: 5px;
+    height: auto;
+}
+
+
+
+.content-resort{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px 15px 0 15px;
+    margin-left: 50px;
+    background-color: #64605F;
+    color: #C0C3CB;
+}
+
+/* content-muine */
+
+
+
+.detail{
+    display: flex;
+    padding: 10px;
+}
+
+.detail .detail1{
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.detail .detail1 img{
+    margin: 0 13px;
+}
+
+.detail .detail1 .des{
+    position: absolute;
+    bottom: 10px;
+    margin: 0 13px;
+    background-color: #748383;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* foodter */
+
+.f1{
+    display: flex;
+    background-color: #27AEDF   ;
+}
+.foodter{
+   margin: 0 auto;
+    color:white;
+}
+/* foodter */
